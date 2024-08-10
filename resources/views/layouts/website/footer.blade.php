@@ -160,10 +160,10 @@
     });
     var swiper = new Swiper(".mySwiper2", {
         slidesPerView: 1,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
         spaceBetween: 30,
         pagination: {
             el: ".swiper-pagination",
@@ -186,7 +186,7 @@
     });
     var swiper = new Swiper('.mySwiper3', {
         autoplay: {
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
         },
         breakpoints: {
