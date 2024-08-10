@@ -226,7 +226,7 @@ nav .navbar-brand img {
 }
 
 .img-fluid {
-    max-width: 100%;
+    max-width: 9rem;
     height: auto;
 }
 
@@ -748,4 +748,7 @@ footer .footer-mains-offers {
 }
 .account .nav-tabs{
     border-bottom: none !important;
+}
+.account .featured-card-imagess img{
+    height: 9rem;
 }

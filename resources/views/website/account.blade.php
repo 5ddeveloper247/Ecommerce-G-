@@ -142,9 +142,9 @@
                                 </button>
                             </div>
                             <div class="d-flex justify-content-center my-4">
-                                <div class="featured-card-images">
+                                <div class="featured-card-imagess">
                                     <a href="product_detail">
-                                        <img class="img-fluid" src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
+                                        <img src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
                                     </a>
                                 </div>
                             </div>
@@ -204,9 +204,9 @@
                                 </button>
                             </div>
                             <div class="d-flex justify-content-center my-4">
-                                <div class="featured-card-images">
+                                <div class="featured-card-imagess">
                                     <a href="product_detail">
-                                        <img class="img-fluid" src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
+                                        <img src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
                                     </a>
                                 </div>
                             </div>
@@ -266,9 +266,9 @@
                                 </button>
                             </div>
                             <div class="d-flex justify-content-center my-4">
-                                <div class="featured-card-images">
+                                <div class="featured-card-imagess">
                                     <a href="product_detail">
-                                        <img class="img-fluid" src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
+                                        <img src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
                                     </a>
                                 </div>
                             </div>
@@ -329,9 +329,9 @@
                                 </button>
                             </div>
                             <div class="d-flex justify-content-center my-4">
-                                <div class="featured-card-images">
+                                <div class="featured-card-imagess">
                                     <a href="product_detail">
-                                        <img class="img-fluid" src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
+                                        <img src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
                                     </a>
                                 </div>
                             </div>
@@ -391,9 +391,9 @@
                                 </button>
                             </div>
                             <div class="d-flex justify-content-center my-4">
-                                <div class="featured-card-images">
+                                <div class="featured-card-imagess">
                                     <a href="product_detail">
-                                        <img class="img-fluid" src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
+                                        <img src="http://127.0.0.1:8000/assets/images/category-img.png" alt="Card image">
                                     </a>
                                 </div>
                             </div>
