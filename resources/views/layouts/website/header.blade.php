@@ -437,10 +437,10 @@
     <div class="offcanvas-body px-0">
         <ul class="list-unstyled">
             <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
+                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="{{url('/products')}}">
                     <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Action</a>
+                    </svg>All Products</a>
             </li>
             <li class="px-2 py-1">
                 <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
