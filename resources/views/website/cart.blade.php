@@ -8,7 +8,7 @@
         }
 
         .your-cart {
-            padding: 3rem 10rem;
+            padding: 3rem 2rem;
         }
 
         .add-to-cart {
