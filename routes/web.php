@@ -35,3 +35,12 @@ Route::get('/cart', function () {
 Route::get('/products', function () {
     return view('website.products');
 });
+Route::get('/contact_us', function () {
+    return view('website.contact_us');
+});
+Route::get('/about_us', function () {
+    return view('website.about_us');
+});
+Route::get('/account', function () {
+    return view('website.account');
+});

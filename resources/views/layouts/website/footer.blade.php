@@ -1,3 +1,29 @@
+<!-- _______________________NewsLetter_________________________ -->
+<div class="newsletter">
+    <div class="container py-5">
+        <div class="row justify-content-md-between justify-content-center align-items-center">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 48 48">
+                        <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
+                            <path fill="currentColor" d="M44 18v21.818C44 41.023 43.105 42 42 42H6c-1.105 0-2-.977-2-2.182V18l20 13z" />
+                            <path stroke-linecap="round" d="M4 17.784L24 4l20 13.784" />
+                        </g>
+                    </svg>
+                    <h4 class="text-white ps-2 mb-0">Sign Up For NewsLetter</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form class="d-flex mt-md-0 mt-3">
+                    <input class="form-control me-2 nav-search" type="search" placeholder="Your email address" aria-label="Search">
+                    <button class="btn nav-search-btn d-flex align-items-center justify-content-center" type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <footer class="bg-light text-dark pt-5">
     <div class="container">
         <div class="row">
@@ -133,7 +159,7 @@
                 </div>
             </div>
         </div>
-    <p class="py-4">Powered by BigCommerce© 2024 5d@Solutions</p>
+        <p class="py-4">Powered by BigCommerce© 2024 5d@Solutions</p>
     </div>
 </footer>
 
@@ -326,4 +352,3 @@
         },
     });
 </script>
-
