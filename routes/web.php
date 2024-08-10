@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/home', function () {
     return view('website.home');
 });
 Route::get('/product_detail', function () {
@@ -27,4 +27,11 @@ Route::get('/sign_in', function () {
 });
 Route::get('/register', function () {
     return view('website.register');
+});
+Route::get('/cart', function () {
+    return view('website.cart');
+});
+
+Route::get('/products', function () {
+    return view('website.products');
 });
