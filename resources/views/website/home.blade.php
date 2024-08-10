@@ -66,14 +66,13 @@
         <div class="swiper-button-prev"></div>
     </div>
     <!-- _______________________Categories Card Slider_________________________ -->
-
 </div>
 
 <!-- _______________________Categories Card Slider_________________________ -->
 <div class="container my-5">
     <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
-            <div class="swiper-slide mx-3">
+            <div class="swiper-slide">
                 <div class="card categories-card p-4 border-0">
                     <h4 class="card-title position-relative text-start">
                         Computers
@@ -85,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide mx-3">
+            <div class="swiper-slide">
                 <div class="card categories-card p-4 border-0">
                     <h4 class="card-title position-relative text-start">
                         Computers
@@ -97,7 +96,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide mx-3">
+            <div class="swiper-slide">
                 <div class="card categories-card p-4 border-0">
                     <h4 class="card-title position-relative text-start">
                         Computers
@@ -109,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide mx-3">
+            <div class="swiper-slide">
                 <div class="card categories-card p-4 border-0">
                     <h4 class="card-title position-relative text-start">
                         Computers
@@ -121,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide mx-3">
+            <div class="swiper-slide">
                 <div class="card categories-card p-4 border-0">
                     <h4 class="card-title position-relative text-start">
                         Computers
@@ -133,8 +132,10 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
+
     <!-- _______________________Featured Card Slider_________________________ -->
     <div class="featured-cards-div mt-4">
         <h3 class="main-headings position-relative text-start">
@@ -171,7 +172,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -231,7 +234,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -291,7 +296,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -352,7 +359,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -412,7 +421,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -472,7 +483,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -532,7 +545,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -573,8 +588,8 @@
     <!-- _______________________Promo Cards_________________________ -->
     <div class="promocards row mt-4">
         <div class="col-md-4">
-            <div class="mx-1 promocard bg-danger d-flex rounded-2 w-100">
-                <div class="row align-items-center py-4 px-2 my-1">
+            <div class="mx-1 promocard bg-danger d-flex rounded-2 w-100 my-md-0 my-2">
+                <div class="row align-items-center py-4 px-2">
                     <div class="col-md-8">
                         <div class="promo-text d-flex flex-column align-items-center">
                             <h5 class="text-white">New Apple Watch</h5>
@@ -583,14 +598,16 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        <div class="d-flex justify-content-center mt-md-0 mt-4">
+                            <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="mx-1 promocard bg-secondary d-flex rounded-2 w-100">
-                <div class="row align-items-center py-4 px-2 my-1">
+            <div class="mx-1 promocard bg-secondary d-flex rounded-2 w-100 my-md-0 my-2">
+                <div class="row align-items-center py-4 px-2">
                     <div class="col-md-8">
                         <div class="promo-text d-flex flex-column align-items-center">
                             <h5 class="text-white">New Apple Watch</h5>
@@ -599,14 +616,16 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        <div class="d-flex justify-content-center mt-md-0 mt-4">
+                            <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="mx-1 promocard bg-success d-flex rounded-2 w-100">
-                <div class="row align-items-center py-4 px-2 my-1">
+            <div class="mx-1 promocard bg-success d-flex rounded-2 w-100 my-md-0 my-2">
+                <div class="row align-items-center py-4 px-2">
                     <div class="col-md-8">
                         <div class="promo-text d-flex flex-column align-items-center">
                             <h5 class="text-white">New Apple Watch</h5>
@@ -615,7 +634,9 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        <div class="d-flex justify-content-center mt-md-0 mt-4">
+                            <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -657,7 +678,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -717,7 +740,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -777,7 +802,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -838,7 +865,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -898,7 +927,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -958,7 +989,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1018,7 +1051,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1059,7 +1094,7 @@
     <!-- _______________________Promo Cards 2_________________________ -->
     <div class="promocards row mt-4">
         <div class="col-md-6">
-            <div class="mx-1 promocard bg-danger d-flex rounded-2 w-100">
+            <div class="mx-1 promocard bg-danger d-flex rounded-2 w-100 my-md-0 my-2">
                 <div class="row align-items-center py-2 px-2 w-100 my-1">
                     <div class="col-md-7">
                         <div class="promo-text d-flex flex-column align-items-center">
@@ -1069,13 +1104,15 @@
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        <div class="d-flex justify-content-center mt-md-0 mt-4">
+                            <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
-            <div class="mx-1 promocard bg-secondary d-flex rounded-2 w-100">
+            <div class="mx-1 promocard bg-secondary d-flex rounded-2 w-100 my-md-0 my-2">
                 <div class="row align-items-center py-2 px-2 w-100 my-1">
                     <div class="col-md-7">
                         <div class="promo-text d-flex flex-column align-items-center">
@@ -1085,7 +1122,9 @@
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        <div class="d-flex justify-content-center mt-md-0 mt-4">
+                            <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1127,7 +1166,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1187,7 +1228,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1247,7 +1290,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1308,7 +1353,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1368,7 +1415,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1428,7 +1477,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1488,7 +1539,9 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <div class="featured-card-images">
-                                <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                <a href="{{url('/product_detail')}}">
+                                    <img class="img-fluid" src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -1670,7 +1723,6 @@
     </div>
 </div>
 <!-- _______________________NewsLetter_________________________ -->
-
 <div class="newsletter">
     <div class="container py-5">
         <div class="row justify-content-md-between justify-content-center align-items-center">
@@ -1691,7 +1743,7 @@
                     <button class="btn nav-search-btn d-flex align-items-center justify-content-center" type="submit">
                         Subscribe
                     </button>
-                </form>u
+                </form>
             </div>
         </div>
     </div>
@@ -1703,8 +1755,10 @@
         <div class="modal-content">
             <div class="modal-body py-5">
                 <div class="row">
-                    <div class="col-md-5 my-1">
-                       
+                    <div class="col-md-5 my-1 d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                        </div>
                     </div>
                     <div class="col-md-7 my-1">
                         <div class="d-flex justify-content-between">

@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg header-top pb-0">
         <div class="container">
             <!-- Logo on the left side -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{url('/')}}">
                 <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/220x70/logo_01_1596263683__90290.original.png" alt="Logo">
             </a>
 
@@ -222,7 +222,7 @@
     <nav class="navbar navbar-expand-lg header-top bg-dark py-1">
         <div class="container">
             <!-- Logo on the left side -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{url('/')}}">
                 <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/220x70/logo_01_1596263683__90290.original.png" alt="Logo">
             </a>
 
@@ -245,20 +245,68 @@
                         <path fill="currentColor" d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3" />
                     </svg>
                 </a>
-                <a class="px-2" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1" />
-                    </svg>
-                </a>
-                <div class="px-2 cart-with-count">
-                    <a class=" position-relative" href="#">
+                <div class="dropdown-center">
+                    <a class="px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                            <path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25q0-.075.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2" />
+                            <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1" />
                         </svg>
-                        <span class="position-absolute top-0 start-100 translate-middle  rounded-pill">
-                            0
-                        </span>
                     </a>
+                    <ul class="dropdown-menu" style="margin-left:-55px">
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="{{url('sign_in')}}">
+                                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24">
+                                    <path fill="#000" d="M6.616 9H15V7q0-1.25-.875-2.125T12 4t-2.125.875T9 7H8q0-1.671 1.165-2.835Q10.329 3 12 3t2.836 1.165T16 7v2h1.385q.67 0 1.143.472q.472.472.472 1.144v8.769q0 .67-.472 1.143q-.472.472-1.143.472H6.615q-.67 0-1.143-.472Q5 20.056 5 19.385v-8.77q0-.67.472-1.143Q5.944 9 6.616 9m0 11h10.769q.269 0 .442-.173t.173-.442v-8.77q0-.269-.173-.442T17.385 10H6.615q-.269 0-.442.173T6 10.616v8.769q0 .269.173.442t.443.173M12 16.5q.633 0 1.066-.434q.434-.433.434-1.066t-.434-1.066T12 13.5t-1.066.434Q10.5 14.367 10.5 15t.434 1.066q.433.434 1.066.434M6 20V10z" />
+                                </svg>
+                                <p class="mb-0 text-black">Sign in</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="{{url('register')}}">
+                                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 32 32">
+                                    <path fill="#000" d="M20.77 12.364s.85-3.51 0-4.7c-.85-1.188-1.188-1.98-3.057-2.547s-1.188-.454-2.547-.396s-2.492.793-2.492 1.19c0 0-.85.056-1.188.396c-.34.34-.906 1.924-.906 2.32s.283 3.06.566 3.625l-.337.114c-.284 3.283 1.13 3.68 1.13 3.68c.51 3.058 1.02 1.756 1.02 2.548s-.51.51-.51.51s-.452 1.245-1.584 1.698s-7.416 2.886-7.927 3.396c-.512.51-.454 2.888-.454 2.888h26.947s.06-2.377-.452-2.888c-.51-.51-6.795-2.944-7.927-3.396c-1.132-.453-1.584-1.698-1.584-1.698s-.51.282-.51-.51s.51.51 1.02-2.548c0 0 1.413-.397 1.13-3.68h-.34z" />
+                                </svg>
+
+                                <p class="mb-0 text-black">Register</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown-center">
+                    <div class="px-2 cart-with-count">
+                        <a class=" position-relative" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25q0-.075.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2" />
+                            </svg>
+                            <span class="position-absolute top-0 start-100 translate-middle  rounded-pill">
+                                0
+                            </span>
+                        </a>
+                        <div class="dropdown-menu" style="margin-left:-13rem; width:18rem">
+                            <div class="">
+                                <div class="px-3 pt-3">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/1920w/products/97/406/07__37672.1589167510.jpg?c=1z" alt="Product Image" class="img-thumbnail me-3" style="width: 60px;">
+                                        <div>
+                                            <h5 class="card-title mb-1">Wintage Spoon</h5>
+                                            <p class="card-text text-muted mb-0">Aliquam quat voluptatem</p>
+                                            <p class="card-text fw-bold">₹129.95</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="px-3">
+                                <hr>
+                                <div class="d-flex justify-content-center">
+                                    <span class="fw-bold">Total: ₹129.95</span>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="d-flex justify-content-center px-3 pb-2">
+                                <button class="btn btn-dark me-2 rounded-pill">View Cart</button>
+                                <button class="btn btn-secondary rounded-pill" disabled>Checkout</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -493,6 +541,3 @@
         </ul>
     </div>
 </div>
-
-
-
