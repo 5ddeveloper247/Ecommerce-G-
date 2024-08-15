@@ -8,7 +8,7 @@
 
 <!-- _______________________Hero Slider_________________________ -->
 <div>
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper" id="hero-slider">
         <div class="swiper-wrapper">
             <div class="swiper-slide mx-3">
                 <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/original/carousel/13/slider-02__42161.jpg?c=1" alt="">
@@ -62,15 +62,70 @@
                 </div> -->
             </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
     </div>
-    <!-- _______________________Categories Card Slider_________________________ -->
 </div>
 
-<!-- _______________________Categories Card Slider_________________________ -->
 <div class="container my-5">
-    <div class="swiper mySwiper2">
+    <!-- _______________________Feature Card_________________________ -->
+    <div class="row features g-3">
+        <div class="col-lg-3 col-6">
+            <div class="card-custom text-center p-md-3 p-sm-2 p-1">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3 3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm1 6V5h5v4zm-1 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm1 6v-4h5v4zm9-15a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1zm2 1v4h5V5zm-1 8a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1zm1 6v-4h5v4z" />
+                    </svg>
+                </div>
+                <h5>Millions of business offerings</h5>
+                <p>Explore products and suppliers for your business from millions of offerings worldwide.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-6">
+            <div class="card-custom text-center p-md-3 p-sm-2 p-1">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor">
+                            <path d="M14.262 3.6C13.196 2.532 12.662 2 12 2s-1.196.533-2.262 1.6c-.64.64-1.274.936-2.186.936c-.796 0-1.93-.154-2.552.473c-.618.623-.464 1.752-.464 2.543c0 .912-.297 1.546-.937 2.186C2.533 10.804 2 11.338 2 12s.533 1.196 1.6 2.262c.716.717.936 1.18.936 2.186c0 .796-.154 1.93.473 2.552c.623.617 1.752.464 2.543.464c.971 0 1.44.19 2.133.883c.59.59 1.381 1.653 2.315 1.653s1.725-1.063 2.315-1.653c.694-.693 1.162-.883 2.133-.883c.791 0 1.92.154 2.543-.464m1.41-9.262C21.467 10.804 22 11.338 22 12s-.533 1.196-1.6 2.262c-.716.717-.936 1.18-.936 2.186c0 .796.154 1.93-.473 2.552m0 0H19" />
+                            <path d="M8 10.308S10.25 10 12 14c0 0 5.059-10 10-12" />
+                        </g>
+                    </svg>
+                </div>
+                <h5>Assured quality and transactions</h5>
+                <p>Ensure production quality from verified suppliers, with your orders protected from payment to delivery.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-6">
+            <div class="card-custom text-center p-md-3 p-sm-2 p-1">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor">
+                            <path d="M2 19s1 0 2 2c0 0 3.176-5 6-6m.5 6H16c2.828 0 4.243 0 5.121-.879C22 19.243 22 17.828 22 15v-2c0-2.828 0-4.243-.879-5.121C20.243 7 18.828 7 16 7h-6m-8 8v-4c0-3.771 0-5.657 1.172-6.828S6.229 3 10 3h4c.93 0 1.395 0 1.777.102a3 3 0 0 1 2.12 2.122C18 5.605 18 6.07 18 7" />
+                            <path d="M16 13.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 0 0-3 0" />
+                        </g>
+                    </svg>
+                </div>
+                <h5>One-stop trading solution</h5>
+                <p>Order seamlessly from product/supplier search to order management, payment, and fulfillment.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-6">
+            <div class="card-custom text-center p-md-3 p-sm-2 p-1">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="m9.853 14.633l-6.201-3.946a2 2 0 0 1 0-3.374l6.2-3.946a4 4 0 0 1 4.296 0l6.2 3.946a2 2 0 0 1 0 3.374l-6.2 3.946a4 4 0 0 1-4.296 0Z" />
+                            <path d="m18.286 12l2.063 1.313a2 2 0 0 1 0 3.374l-6.201 3.946a4 4 0 0 1-4.296 0l-6.2-3.946a2 2 0 0 1 0-3.374L5.714 12" />
+                        </g>
+                    </svg>
+                </div>
+                <h5>Tailored trading experience</h5>
+                <p>Get curated benefits, such as exclusive discounts, enhanced protection, and extra support, to help grow your business every step of the way.</p>
+            </div>
+        </div>
+    </div>
+    <!-- _______________________Categories Card Slider_________________________ -->
+    <div class="swiper mySwiper2 mt-5 d-none">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="card categories-card p-4 border-0">
@@ -135,7 +190,68 @@
 
         </div>
     </div>
+    <!-- _______________________Counters_________________________ -->
+    <div class="counters mt-5">
+        <div class="row">
+            <div class="col-md-7 d-flex align-items-center">
+                <h2 class=" font-weight-bold pt-md-3 pt-1 mt-lg-3 mt-0">Explore Hundreds
+                    Of Offerings
+                    Tailored To Your
+                    Business Needs</h2>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-6 my-md-3 my-2">
+                        <div class="px-2 border-left-card">
+                            <div>
+                                <h2 class="mb-0">200K+</h2>
+                                <p class="card-text d-flex">
+                                    Products
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Card 2 -->
+                    <div class="col-6 my-md-3 my-2">
+                        <div class="px-2 border-left-card">
+                            <div>
+                                <h2 class="mb-0">2,000+</h2>
+                                <p class="card-text d-flex">
+                                    Suppliers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-6 my-md-3 my-2">
+                        <div class="px-2 border-left-card">
+                            <div>
+                                <h2 class="mb-0">500+
+                                </h2>
+                                <p class="card-text d-flex">
+                                    Product Categories
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-6 my-md-3 my-2">
+                        <div class="px-2 border-left-card">
+                            <div>
+                                <h2 class="mb-0">2+
+                                </h2>
+                                <p class="card-text d-flex">
+                                    Countries and Regions
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- _______________________Featured Card Slider_________________________ -->
     <div class="featured-cards-div mt-4">
         <h3 class="main-headings position-relative text-start">
@@ -636,6 +752,49 @@
                     <div class="col-md-4">
                         <div class="d-flex justify-content-center mt-md-0 mt-4">
                             <img src="{{asset('assets/images/category-img.png')}}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- _______________________Our Mission Cards_________________________ -->
+    <div class="our-mission-cards-div mt-5">
+        <div class="row justify-content-center my-2">
+            <div class="col-md-8">
+                <h3 class="text-center">Empowering businesses through global trade</h3>
+                <p class="text-center">Alibaba.com offers one-stop B2B trading solutions for global small and medium-sized businesses, empowering them to transform through digital trade, grasp opportunities, and accelerate growth internationally.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="info-card info-card-dark w-100 py-4">
+                    <div>
+                        <h6>Our Mission</h6>
+                        <h3>Make it easy to do business anywhere.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div>
+                    <div class="info-card info-card-light w-100 py-4 mb-md-2">
+                        <div class="row align-items-end">
+                            <div class="col-lg-8 my-1">
+                                <h6>Our Locations</h6>
+                                <h3>We have teams around the world.</h3>
+                            </div>
+                            <div class="col-lg-4 my-1">
+                                <p>
+                                    Hangzhou, China Paris, France Munich, Germany Tokyo, Japan Seoul, Korea London, UKNew York, US...
+                                    and many other locations worldwide.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-card info-card-dar w-100 py-4 mt-md-2">
+                        <div>
+                            <h6>Our ESG Promises</h6>
+                            <h3>Responsible technology.<br>Sustainable future.</h3>
                         </div>
                     </div>
                 </div>
@@ -1579,6 +1738,50 @@
             <div class="swiper-button-prev"></div>
         </div>
     </div>
+    <!-- _______________________Testimonials Slider_________________________ -->
+    <div class="testimonials-div mt-4">
+        <div class="row justify-content-center my-2">
+            <div class="col-md-8">
+                <h3 class="text-center">Get tailored discounts, services, and tools for your business stage.</h3>
+                <p class="text-center">Grow with curated benefits offered by the free Alibaba.com Membership, whether you are a small business needing the essentials to start sourcing or a well-established enterprise looking for tools and solutions for more complex orders.</p>
+            </div>
+        </div>
+        <div class="swiper mySwiper8">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide p-2">
+                    <div class="testimonial d-flex flex-lg-nowrap flex-wrap justify-content-md-start justify-content-center align-items-center">
+                        <img src="https://s.alicdn.com/@img/imgextra/i3/O1CN01wllRR11a9Uiq6syoP_!!6000000003287-2-tps-352-352.png_350x350.jpg" alt="Dr. Sayed Ibrahim">
+                        <div class="testimonial-content d-flex flex-column flex-lg-nowrap flex-wrap">
+                            <p class="quote">“Once I discovered Alibaba.com, I was amazed at how many options I had with suppliers from all over the world.”</p>
+                            <h6>Dr. Sayed Ibrahim</h6>
+                            <p>Founder of SprinJene</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide p-2">
+                    <div class="testimonial d-flex flex-lg-nowrap flex-wrap justify-content-md-start justify-content-center align-items-center">
+                        <img src="https://s.alicdn.com/@img/imgextra/i3/O1CN01wllRR11a9Uiq6syoP_!!6000000003287-2-tps-352-352.png_350x350.jpg" alt="Dr. Sayed Ibrahim">
+                        <div class="testimonial-content d-flex flex-column flex-lg-nowrap flex-wrap">
+                            <p class="quote">“Once I discovered Alibaba.com, I was amazed at how many options I had with suppliers from all over the world.”</p>
+                            <h6>Dr. Sayed Ibrahim</h6>
+                            <p>Founder of SprinJene</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide p-2">
+                    <div class="testimonial d-flex flex-lg-nowrap flex-wrap justify-content-md-start justify-content-center align-items-center">
+                        <img src="https://s.alicdn.com/@img/imgextra/i3/O1CN01wllRR11a9Uiq6syoP_!!6000000003287-2-tps-352-352.png_350x350.jpg" alt="Dr. Sayed Ibrahim">
+                        <div class="testimonial-content d-flex flex-column flex-lg-nowrap flex-wrap">
+                            <p class="quote">“Once I discovered Alibaba.com, I was amazed at how many options I had with suppliers from all over the world.”</p>
+                            <h6>Dr. Sayed Ibrahim</h6>
+                            <p>Founder of SprinJene</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+    </div>
     <!-- _______________________Latest Blogs Card Slider_________________________ -->
     <div class="best-seller-cards-div mt-4">
         <h3 class="main-headings position-relative text-start">
@@ -1721,6 +1924,8 @@
             <div class="swiper-button-prev"></div>
         </div>
     </div>
+</div>
+
 </div>
 
 

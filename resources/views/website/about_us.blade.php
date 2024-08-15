@@ -7,19 +7,68 @@
 @section('content')
 
 <div class="container about-us py-5">
-    <h3 class="main-headings position-relative text-start">
-        About Us
-        <div class="border-under-main-heading"></div>
-    </h3>
-    <p class="mt-5">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae iure voluptatum, delectus, nesciunt, excepturi facere labore at sequi exercitationem modi consequuntur quia odit? Veritatis aut sapiente saepe, dicta aliquid rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, expedita fugit. Iusto magnam animi dignissimos? Optio aperiam, modi vero corrupti doloribus voluptatum totam accusantium quasi atque ipsam.<br> <br> Fuga, modi eveniet.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam quis assumenda nam magnam rem qui minus fuga illum aliquid dolorum tenetur esse nesciunt corporis expedita id quas placeat perspiciatis sunt vitae ratione accusantium, dignissimos laboriosam. Ad quas at, fuga nisi totam earum excepturi. Nulla non error magnam doloremque dolores aut voluptas. Tempora repudiandae fugiat quisquam veniam assumenda fuga, aperiam quo vero voluptatum temporibus similique unde iusto velit consequatur explicabo porro amet. Adipisci similique voluptatibus sed amet voluptas maxime delectus blanditiis tempora iste ad culpa non optio corporis nemo, beatae deserunt laudantium itaque incidunt voluptatem obcaecati aliquid quaerat laboriosam officia.<br> <br> Fuga, modi eveniet.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam quis assumenda nam magnam rem qui minus fuga illum aliquid dolorum tenetur esse nesciunt corporis expedita id quas placeat perspiciatis sunt vitae ratione accusantium, dignissimos laboriosam. Ad quas at, fuga nisi totam earum excepturi. Nulla non error magnam doloremque dolores aut voluptas. Tempora repudiandae fugiat quisquam veniam assumenda fuga, aperiam quo vero voluptatum temporibus similique unde iusto velit consequatur explicabo porro amet. Adipisci similique voluptatibus sed amet voluptas maxime delectus blanditiis tempora iste ad culpa non optio corporis nemo, beatae deserunt laudantium itaque incidunt voluptatem obcaecati aliquid quaerat laboriosam officia.<br> <br> Fuga, modi eveniet.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam quis assumenda nam magnam rem qui minus fuga illum aliquid dolorum tenetur esse nesciunt corporis expedita id quas placeat perspiciatis sunt vitae ratione accusantium, dignissimos laboriosam. Ad quas at, fuga nisi totam earum excepturi. Nulla non error magnam doloremque dolores aut voluptas. Tempora repudiandae fugiat quisquam veniam assumenda fuga, aperiam quo vero voluptatum temporibus similique unde iusto velit consequatur explicabo porro amet. Adipisci similique voluptatibus sed amet voluptas maxime delectus blanditiis tempora iste ad culpa non optio corporis nemo, beatae deserunt laudantium itaque incidunt voluptatem obcaecati aliquid quaerat laboriosam officia.
-    </p>
+    <div class="row">
+        <div class="col-md-6 my-1">
+            <h3 class="main-headings position-relative text-start">
+                About Us
+                <div class="border-under-main-heading"></div>
+            </h3>
+            <p class="mt-5">
+                Launched in 1999, Alibaba.com is the leading platform for global wholesale trade. We serve millions of buyers and suppliers around the world.
+            </p>
+        </div>
+        <div class="col-md-6 my-1 d-flex justify-content-center">
+            <img class="img-fluid" src="https://img.alicdn.com/tps/i4/TB12rC6FVXXXXbeXFXXjP6tPXXX-372-205.jpg" alt="">
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6 my-1 d-flex justify-content-center">
+            <img class="img-fluid" src="https://img.alicdn.com/tps/i4/TB14.S5FVXXXXciXFXXLLTAZVXX-290-235.jpg" alt="">
+        </div>
+        <div class="col-md-6 my-1">
+            <h3 class="main-headings position-relative text-start">
+                Our Mission
+                <div class="border-under-main-heading"></div>
+            </h3>
+            <p class="mt-5">
+                As part of the Alibaba Group, our mission is to make it easy to do business anywhere.
+                <br><br>
+                We do this by giving suppliers the tools necessary to reach a global audience for their products, and by helping buyers find products and suppliers quickly and efficiently.
+            </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6 my-1">
+            <h3 class="main-headings position-relative text-start">
+                One-Stop Sourcing
+                <div class="border-under-main-heading"></div>
+            </h3>
+            <p class="mt-5">
+                Alibaba.com brings you hundreds of millions of products in over 40 different major categories, including consumer electronics, machinery and apparel. <br> <br>
+                Buyers for these products are located in 190+ countries and regions, and exchange hundreds of thousands of messages with suppliers on the platform each day.
+            </p>
+        </div>
+        <div class="col-md-6 my-1 d-flex justify-content-center">
+            <img class="img-fluid" src="https://img.alicdn.com/tps/i3/TB1vN1_FVXXXXa7XpXXViktNVXX-400-289.jpg" alt="">
+        </div>
+    </div>
+    <div class="row my-md-5 mt-md-0 mt-5">
+        <div class="col-md-6 my-1 d-flex justify-content-center">
+            <img class="img-fluid" src="https://img.alicdn.com/tps/i2/TB1lam6FVXXXXbyXFXXAMLs6FXX-230-222.jpg" alt="">
+        </div>
+        <div class="col-md-6 my-1">
+            <h3 class="main-headings position-relative text-start">
+                Anytime, Anywhere
+                <div class="border-under-main-heading"></div>
+            </h3>
+            <p class="mt-5">
+                As a platform, we continue to develop services to help businesses do more and discover new opportunities.
+                <br><br>
+                Whether it’s sourcing from your mobile phone or contacting suppliers in their local language, turn to Alibaba.com for all your global business needs.
+            </p>
+        </div>
+    </div>
 </div>
 
 

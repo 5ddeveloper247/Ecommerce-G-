@@ -143,7 +143,7 @@
          </div>
          <div class="col-12">
             <button class="btn btn-add-to-cart mt-3 py-2">
-               Add to Cart
+               Register
             </button>
          </div>
       </div>

@@ -90,7 +90,7 @@
                     </a>
                     <div class="position-absolute rounded-3 ps-3 pe-5 py-3">
                         <div class="navPages-item-page">
-                            <a class="link-action" href="#">Our Blogs</a>
+                            <a class="link-action" href={{url('blogs')}}>Our Blogs</a>
                         </div>
                         <div class="navPages-item-page">
                             <a class="link-action" href="#"> Gift Certificates</a>
@@ -225,14 +225,58 @@
             <a class="navbar-brand" href="{{url('/')}}">
                 <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/220x70/logo_01_1596263683__90290.original.png" alt="Logo">
             </a>
+            <a href="#" type="button" class="d-flex align-items-center text-decoration-none" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 512 512">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137" />
+                    <circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                </svg>
+                <p class="text-white mb-0 lh-1 me-2">
+                    <small class="text-nowrap">Delivered to</small>
+                    <br>
+                    Pakistan
+                </p>
+            </a>
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Choose your location</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-start mb-2">Delivery options and delivery speeds may vary for different locations.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <button class="btn btn-warning px-md-5 rounded-pill">Sign in to see your addresses</button>
+                            </div>
+                            <div class="mb-2">
+                                <p class="text-start mb-2">or enter a UK mainland postcode</p>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Postcode">
+                                    <button class="btn btn-primary" type="button">Apply</button>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <p class="text-center">or</p>
+                                <div class="input-group">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Pakistan</option>
+                                        <option value="1">United Kingdom</option>
+                                        <option value="2">United States</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
             <!-- Centered search bar -->
             <div class="justify-content-center w-50">
                 <form class="d-flex">
                     <input class="form-control me-2 nav-search" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn nav-search-btn d-flex align-items-center justify-content-center" type="submit">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.4em" height="1.4em" viewBox="0 0 24 24">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6" />
+                            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6" />
                         </svg>
                     </button>
                 </form>
@@ -240,18 +284,48 @@
 
             <!-- Button on the right side -->
             <div class="d-flex align-items-center" role="search">
-                <a class="px-2" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3" />
-                    </svg>
-                </a>
-                <div class="dropdown-center">
-                    <a class="px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                            <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1" />
+                <div class="dropdown">
+                    <a class="px-2 d-flex align-items-end dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img height="25" width="25" src="{{asset('assets/images/usa.png')}}" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="m7 10l5 5l5-5z" />
                         </svg>
                     </a>
-                    <ul class="dropdown-menu" style="margin-left:-55px">
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="width : 17rem; margin-left:-8rem;margin-top:9px">
+                        <div class="currency-box">
+                            <div class="d-flex flex-column justify-content-between">
+                                <div class="d-flex">
+                                    <p class="mb-0">Change currency</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="mb-0 text-muted">£ - GBP - British Pound</p>
+                                    <a href="#" class="currency-change text-decoration-none text-black">Change</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center mt-3">
+                                <p class="mb-0 text-muted">You are shopping on Amazon.co.uk</p>
+                            </div>
+                            <a href="#" class="currency-change d-block mt-2 text-decoration-none text-center">Change country/region</a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="dropdown-center">
+                    <a class="px-2 text-decoration-none d-flex align-items-end" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1" />
+                        </svg> -->
+                        <p class="mb-0 text-white lh-1 text-nowrap">
+                            <small>
+                                Hello, sign in
+                            </small>
+                            <br>
+                            Account & Lists
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="m7 10l5 5l5-5z" />
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu" style="margin-left:-18px">
                         <li>
                             <a class="dropdown-item d-flex align-items-center" href="{{url('account')}}">
                                 <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24">
@@ -279,6 +353,12 @@
                         </li>
                     </ul>
                 </div>
+                <a class="px-2" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3" />
+                    </svg>
+                </a>
+
                 <div class="dropdown-center">
                     <div class="px-2 cart-with-count">
                         <a class=" position-relative" data-bs-toggle="dropdown" aria-expanded="false">
@@ -311,11 +391,12 @@
                             </div>
                             <div class="d-flex justify-content-center px-3 pb-2">
                                 <a type="button" href="{{'cart'}}" class="btn btn-dark me-2 rounded-pill">View Cart</a>
-                                <a type="button" class="btn btn-secondary rounded-pill" disabled>Checkout</a>
+                                <a type="button" class="btn btn-secondary rounded-pill" href="{{url('checkout')}}">Checkout</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </nav>
@@ -385,19 +466,22 @@
                     </a>
                     <div class="position-absolute rounded-3 ps-3 pe-5 py-3">
                         <div class="navPages-item-page">
-                            <a class="link-action" href="#">Our Blogs</a>
+                            <a class="link-action" href={{url('blogs')}}>Our Blogs</a>
                         </div>
                         <div class="navPages-item-page">
                             <a class="link-action" href="#"> Gift Certificates</a>
                         </div>
                         <div class="navPages-item-page">
-                            <a class="link-action" href="#">Shipping &amp; Returns</a>
+                            <a class="link-action" href={{url('shipping-returns')}}>Shipping &amp; Returns</a>
                         </div>
                         <div class="navPages-item-page">
-                            <a class="link-action" href="#">Delivery Information</a>
+                            <a class="link-action" href={{url('delivery-information')}}>Delivery Information</a>
                         </div>
                         <div class="navPages-item-page">
-                            <a class="link-action" href="#">Terms &amp; Conditions</a>
+                            <a class="link-action" href={{url('terms-conditions')}}>Terms &amp; Conditions</a>
+                        </div>
+                        <div class="navPages-item-page">
+                            <a class="link-action" href={{url('privacy-policy')}}>Privacy Policy</a>
                         </div>
                     </div>
                 </li>
@@ -418,26 +502,84 @@
             </button>
 
             <!-- Center Logo -->
-            <a class="navbar-brand mx-auto" href="#">
+            <a class="navbar-brand mx-auto" href="{{url('/')}}">
                 <img class="img-fluid" src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/220x70/logo_01_1596263683__90290.original.png" alt="">
             </a>
 
             <!-- Right Side Icons -->
             <div class="d-flex">
-                <a class="px-lg-3 px-2" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1" />
-                    </svg>
-                </a>
-                <div class="px-lg-3 px-2 cart-with-count">
-                    <a class=" position-relative" href="#">
+                <div class="dropdown-center">
+                    <a class="px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                            <path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25q0-.075.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2" />
+                            <path fill="currentColor" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1" />
                         </svg>
-                        <span class="position-absolute top-0 start-100 translate-middle  rounded-pill">
-                            0
-                        </span>
                     </a>
+                    <ul class="dropdown-menu" style="margin-left:-55px">
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="{{url('account')}}">
+                                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24">
+                                    <path fill="#000" d="M6.616 9H15V7q0-1.25-.875-2.125T12 4t-2.125.875T9 7H8q0-1.671 1.165-2.835Q10.329 3 12 3t2.836 1.165T16 7v2h1.385q.67 0 1.143.472q.472.472.472 1.144v8.769q0 .67-.472 1.143q-.472.472-1.143.472H6.615q-.67 0-1.143-.472Q5 20.056 5 19.385v-8.77q0-.67.472-1.143Q5.944 9 6.616 9m0 11h10.769q.269 0 .442-.173t.173-.442v-8.77q0-.269-.173-.442T17.385 10H6.615q-.269 0-.442.173T6 10.616v8.769q0 .269.173.442t.443.173M12 16.5q.633 0 1.066-.434q.434-.433.434-1.066t-.434-1.066T12 13.5t-1.066.434Q10.5 14.367 10.5 15t.434 1.066q.433.434 1.066.434M6 20V10z" />
+                                </svg>
+                                <p class="mb-0 text-black">Account</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="{{url('sign_in')}}">
+                                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24">
+                                    <path fill="#000" d="M6.616 9H15V7q0-1.25-.875-2.125T12 4t-2.125.875T9 7H8q0-1.671 1.165-2.835Q10.329 3 12 3t2.836 1.165T16 7v2h1.385q.67 0 1.143.472q.472.472.472 1.144v8.769q0 .67-.472 1.143q-.472.472-1.143.472H6.615q-.67 0-1.143-.472Q5 20.056 5 19.385v-8.77q0-.67.472-1.143Q5.944 9 6.616 9m0 11h10.769q.269 0 .442-.173t.173-.442v-8.77q0-.269-.173-.442T17.385 10H6.615q-.269 0-.442.173T6 10.616v8.769q0 .269.173.442t.443.173M12 16.5q.633 0 1.066-.434q.434-.433.434-1.066t-.434-1.066T12 13.5t-1.066.434Q10.5 14.367 10.5 15t.434 1.066q.433.434 1.066.434M6 20V10z" />
+                                </svg>
+                                <p class="mb-0 text-black">Sign in</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="{{url('register')}}">
+                                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 32 32">
+                                    <path fill="#000" d="M20.77 12.364s.85-3.51 0-4.7c-.85-1.188-1.188-1.98-3.057-2.547s-1.188-.454-2.547-.396s-2.492.793-2.492 1.19c0 0-.85.056-1.188.396c-.34.34-.906 1.924-.906 2.32s.283 3.06.566 3.625l-.337.114c-.284 3.283 1.13 3.68 1.13 3.68c.51 3.058 1.02 1.756 1.02 2.548s-.51.51-.51.51s-.452 1.245-1.584 1.698s-7.416 2.886-7.927 3.396c-.512.51-.454 2.888-.454 2.888h26.947s.06-2.377-.452-2.888c-.51-.51-6.795-2.944-7.927-3.396c-1.132-.453-1.584-1.698-1.584-1.698s-.51.282-.51-.51s.51.51 1.02-2.548c0 0 1.413-.397 1.13-3.68h-.34z" />
+                                </svg>
+
+                                <p class="mb-0 text-black">Register</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-lg-3 px-2 cart-with-count">
+                    <div class="dropdown-center">
+                        <div class="px-2 cart-with-count">
+                            <a class=" position-relative" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25q0-.075.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2" />
+                                </svg>
+                                <span class="position-absolute top-0 start-100 translate-middle  rounded-pill">
+                                    0
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" style="margin-left:-15rem; width:18rem">
+                                <div class="">
+                                    <div class="px-3 pt-3">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/1920w/products/97/406/07__37672.1589167510.jpg?c=1z" alt="Product Image" class="img-thumbnail me-3" style="width: 60px;">
+                                            <div>
+                                                <h5 class="card-title mb-1">Wintage Spoon</h5>
+                                                <p class="card-text text-muted mb-0">Aliquam quat voluptatem</p>
+                                                <p class="card-text fw-bold">₹129.95</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="px-3">
+                                    <hr>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="fw-bold">Total: ₹129.95</span>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="d-flex justify-content-center px-3 pb-2">
+                                    <a type="button" href="{{'cart'}}" class="btn btn-dark me-2 rounded-pill">View Cart</a>
+                                    <a type="button" class="btn btn-secondary rounded-pill" href="{{url('checkout')}}">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="justify-content-center w-100">
@@ -485,66 +627,84 @@
     </div>
 </div>
 <!-- Offcanvas Menu -->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenuu" aria-labelledby="offcanvasMenuuLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasMenuuLabel">Categories</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenuu" aria-labelledby="offcanvasMenuuLabel" style="width:300px">
+    <div class="offcanvas-header bg-dark text-white mb-2">
+        <h5 class="offcanvas-title text-white" id="offcanvasMenuuLabel">Categories</h5>
+        <button type="button" class="btn-close btn-close-white mt-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body px-0">
         <ul class="list-unstyled">
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="{{url('/products')}}">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>All Products</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{url('/products')}}">
+                    All Products
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Another action</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Another action
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Something else here</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Something else here
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Action</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Action
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Another action</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Another action
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Something else here</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Something else here
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Action</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Action
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Another action</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Another action
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
-            <li class="px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
-                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
-                    </svg>Something else here</a>
+            <li class="px-md-3 px-2 py-1">
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Something else here
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
+                    </svg>
+                </a>
             </li>
         </ul>
     </div>

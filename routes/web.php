@@ -44,3 +44,27 @@ Route::get('/about_us', function () {
 Route::get('/account', function () {
     return view('website.account');
 });
+Route::get('/checkout', function () {
+    return view('website.checkout');
+});
+Route::get('/blogs', function () {
+    return view('website.blogs');
+});
+Route::get('/blog-detail', function () {
+    return view('website.blog_detail');
+});
+Route::get('/shipping-returns', function () {
+    return view('website.shipping_return');
+});
+Route::get('/delivery-information', function () {
+    return view('website.delivery_information');
+});
+Route::get('/terms-conditions', function () {
+    return view('website.terms_conditions');
+});
+Route::get('/privacy-policy', function () {
+    return view('website.privacy_policy');
+});
+Route::get('/faqs', function () {
+    return view('website.faqs');
+});

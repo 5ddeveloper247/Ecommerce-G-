@@ -63,17 +63,20 @@
                 <h5>Navigate</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Specials</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Our Blogs</a></li>
-                    <li><a href="#">Shipping & Returns</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="{{'contact_us'}}">Contact Us</a></li>
+                    <li><a href={{url('blogs')}}>Our Blogs</a></li>
+                    <li><a href={{url('shipping-returns')}}>Shipping & Returns</a></li>
+                    <li><a href={{url('privacy-policy')}}>Privacy Policy</a></li>
+                    <li><a href={{url('terms-conditions')}}>Terms & Conditions</a></li>
+                    <li><a href="{{'about_us'}}">About Us</a></li>
+                    <li><a href="{{'delivery-information'}}">Delivery Information</a></li>
+                    <li><a href="{{'faqs'}}">FAQ's</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
                 <h5>Categories</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#">Shop All</a></li>
+                    <li><a href="{{url('/products')}}">Shop All</a></li>
                     <li><a href="#">Computers</a></li>
                     <li><a href="#">Beagle</a></li>
                     <li><a href="#">Barbet</a></li>
@@ -179,10 +182,10 @@
             delay: 3000,
             disableOnInteraction: false,
         },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
     });
     var swiper = new Swiper(".mySwiper2", {
         slidesPerView: 1,
@@ -351,4 +354,34 @@
             prevEl: ".swiper-button-prev",
         },
     });
+    var swiper = new Swiper('.mySwiper8', {
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
+    });
+    
 </script>
