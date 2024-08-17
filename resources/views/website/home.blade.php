@@ -7,12 +7,11 @@
 @section('content')
 
 <!-- _______________________Hero Slider_________________________ -->
-<div>
-    <div class="swiper mySwiper" id="hero-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide mx-3">
-                <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/original/carousel/13/slider-02__42161.jpg?c=1" alt="">
-                <!-- <div class="overlay"></div>
+<div class="swiper mySwiper d-none" id="hero-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide mx-3">
+            <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/original/carousel/13/slider-02__42161.jpg?c=1" alt="">
+            <!-- <div class="overlay"></div>
                 <div class="content px-md-5">
                     <div class="left-content-on-swiper">
                         <h4>Big Sale <br>
@@ -26,10 +25,10 @@
                          <h5 class="right-price-on-carosal">$99.99</h5>
                     </div>
                 </div> -->
-            </div>
-            <div class="swiper-slide mx-3">
-                <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/original/carousel/12/slider-01__80936.jpg?c=1" alt="">
-                <!-- <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide mx-3">
+            <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/original/carousel/12/slider-01__80936.jpg?c=1" alt="">
+            <!-- <div class="overlay"></div>
                 <div class="content px-md-5">
                     <div class="left-content-on-swiper">
                         <h4>Big Sale <br>
@@ -43,10 +42,10 @@
                          <h5 class="right-price-on-carosal">$99.99</h5>
                     </div>
                 </div> -->
-            </div>
-            <div class="swiper-slide mx-3">
-                <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/original/carousel/14/slider-03__76582.jpg?c=1" alt="">
-                <!-- <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide mx-3">
+            <img src="https://cdn11.bigcommerce.com/s-xfjb6c0wb4/images/stencil/original/carousel/14/slider-03__76582.jpg?c=1" alt="">
+            <!-- <div class="overlay"></div>
                 <div class="content px-md-5">
                     <div class="left-content-on-swiper">
                         <h4>Big Sale <br>
@@ -60,16 +59,62 @@
                          <h5 class="right-price-on-carosal">$99.99</h5>
                     </div>
                 </div> -->
+        </div>
+    </div>
+    <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+</div>
+<!-- _______________________New Hero Banner_________________________ -->
+<div class="row">
+    <div class="col-md-6 hero-banner p-5">
+        <h1 class="mb-0 fw-bold"><span class="the-future px-1">The Future</span> Of <br> Nursing Exam <br> Prep Starts Here</h1>
+        <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- <div class="swiperrr position-relative"> -->
+        <div class="swiper mySwiper" id="hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-banner-card px-3 py-2">
+                        <h6 class="text-start mb-2">NCLEX RN®</h6>
+                        <p class="text-start mb-0 lh-sm"><small>Unlock NCLEX RN Success with Archer Review</small></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-banner-card px-3 py-2">
+                        <h6 class="text-start mb-2">NCLEX RN®</h6>
+                        <p class="text-start mb-0 lh-sm"><small>Unlock NCLEX RN Success with Archer Review</small></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-banner-card px-3 py-2">
+                        <h6 class="text-start mb-2">NCLEX RN®</h6>
+                        <p class="text-start mb-0 lh-sm"><small>Unlock NCLEX RN Success with Archer Review</small></p>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
+        <!-- <div class="position-absolute">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div> -->
+    </div>
+    <div class="col-md-6 px-md-0">
+        <div class="swiper mySwiper10" id="hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="w-100" style="height: calc(100vh - 92px);" src="{{asset('assets/images/hero-banner-img-1.png')}}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="w-100" style="height: calc(100vh - 92px);" src="{{asset('assets/images/hero-banner-img-2.png')}}" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="container my-5">
+<div class="container my-2">
     <!-- _______________________Feature Card_________________________ -->
-    <div class="row features g-3">
+    <!-- <div class="row features g-3">
         <div class="col-lg-3 col-6">
             <div class="card-custom text-center p-md-3 p-sm-2 p-1">
                 <div class="card-icon">
@@ -123,7 +168,7 @@
                 <p>Get curated benefits, such as exclusive discounts, enhanced protection, and extra support, to help grow your business every step of the way.</p>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- _______________________Categories Card Slider_________________________ -->
     <div class="swiper mySwiper2 mt-5 d-none">
         <div class="swiper-wrapper">
@@ -191,7 +236,7 @@
         </div>
     </div>
     <!-- _______________________Counters_________________________ -->
-    <div class="counters mt-5">
+    <div class="counters mt-2">
         <div class="row">
             <div class="col-md-7 d-flex align-items-center">
                 <h2 class=" font-weight-bold pt-md-3 pt-1 mt-lg-3 mt-0">Explore Hundreds
@@ -702,7 +747,7 @@
         </div>
     </div>
     <!-- _______________________Promo Cards_________________________ -->
-    <div class="promocards row mt-4">
+    <div class="promocards row mt-4 d-none">
         <div class="col-md-4">
             <div class="mx-1 promocard bg-danger d-flex rounded-2 w-100 my-md-0 my-2">
                 <div class="row align-items-center py-4 px-2">
@@ -760,13 +805,11 @@
     </div>
     <!-- _______________________Our Mission Cards_________________________ -->
     <div class="our-mission-cards-div mt-5">
-        <div class="row justify-content-center my-2">
-            <div class="col-md-8">
-                <h3 class="text-center">Empowering businesses through global trade</h3>
-                <p class="text-center">Alibaba.com offers one-stop B2B trading solutions for global small and medium-sized businesses, empowering them to transform through digital trade, grasp opportunities, and accelerate growth internationally.</p>
-            </div>
-        </div>
-        <div class="row">
+        <h3 class="main-headings position-relative text-start">
+            Empowering businesses
+            <div class="border-under-main-heading"></div>
+        </h3>
+        <div class="row mt-5">
             <div class="col-md-6 d-flex align-items-stretch">
                 <div class="info-card info-card-dark w-100 py-4">
                     <div>
@@ -1290,7 +1333,7 @@
         </div>
     </div>
     <!-- _______________________Best Seller Card Slider_________________________ -->
-    <div class="best-seller-cards-div mt-4">
+    <div class="best-seller-cards-div mt-4 d-none">
         <h3 class="main-headings position-relative text-start">
             Best Sellers
             <div class="border-under-main-heading"></div>
@@ -1740,13 +1783,11 @@
     </div>
     <!-- _______________________Testimonials Slider_________________________ -->
     <div class="testimonials-div mt-4">
-        <div class="row justify-content-center my-2">
-            <div class="col-md-8">
-                <h3 class="text-center">Get tailored discounts, services, and tools for your business stage.</h3>
-                <p class="text-center">Grow with curated benefits offered by the free Alibaba.com Membership, whether you are a small business needing the essentials to start sourcing or a well-established enterprise looking for tools and solutions for more complex orders.</p>
-            </div>
-        </div>
-        <div class="swiper mySwiper8">
+        <h3 class="main-headings position-relative text-start">
+            Testimonials
+            <div class="border-under-main-heading"></div>
+        </h3>
+        <div class="swiper mySwiper8 mt-5">
             <div class="swiper-wrapper">
                 <div class="swiper-slide p-2">
                     <div class="testimonial d-flex flex-lg-nowrap flex-wrap justify-content-md-start justify-content-center align-items-center">
@@ -1936,8 +1977,22 @@
             <div class="modal-body py-5">
                 <div class="row">
                     <div class="col-md-5 my-1 d-flex align-items-center justify-content-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+                        <div class="row align-items-center justify-content-center d-none">
+                                <img class="w-100" style="height:23rem" id="mainImage" src="{{asset('assets/images/category-img.png')}}" alt="Card image" style="width: 100%; height: auto;">
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <img src="{{asset('assets/images/category-img.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 1">
+                                </div>
+                                <div class="col-3">
+                                    <img src="{{asset('assets/images/category-imgg.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 2">
+                                </div>
+                                <div class="col-3">
+                                    <img src="{{asset('assets/images/category-img.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 3">
+                                </div>
+                                <div class="col-3">
+                                    <img src="{{asset('assets/images/category-imgg.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 4">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-7 my-1">

@@ -9,8 +9,24 @@
 <div class="container product-detail py-5">
     <div class="row">
         <div class="col-md-5 my-1 d-flex align-items-center justify-content-center">
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="{{asset('assets/images/category-img.png')}}" alt="Card image">
+            <div class="row align-items-center justify-content-center">
+                <figure class="zoom" onmousemove="zoom(event)" onmouseleave="resetZoom(event)" style="width: 100%; height: 23rem;">
+                    <img id="mainImage" src="{{asset('assets/images/category-img.png')}}" alt="Card image" class="w-100" style="height: 23rem; width: 100%; height: auto;">
+                </figure>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <img src="{{asset('assets/images/category-img.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 1">
+                    </div>
+                    <div class="col-3">
+                        <img src="{{asset('assets/images/category-imgg.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 2">
+                    </div>
+                    <div class="col-3">
+                        <img src="{{asset('assets/images/category-img.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 3">
+                    </div>
+                    <div class="col-3">
+                        <img src="{{asset('assets/images/category-imgg.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 4">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-7 my-1">

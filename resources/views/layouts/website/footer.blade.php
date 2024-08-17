@@ -175,17 +175,47 @@
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
+    // var swiper = new Swiper(".mySwiper", {
+    //     centeredSlides: true,
+    //     effect: "fade",
+    //     autoplay: {
+    //         delay: 3000,
+    //         disableOnInteraction: false,
+    //     },
+    //     navigation: {
+    //         nextEl: ".swiper-button-next",
+    //         prevEl: ".swiper-button-prev",
+    //     },
+    // });
     var swiper = new Swiper(".mySwiper", {
-        centeredSlides: true,
-        effect: "fade",
+        slidesPerView: 1,
         autoplay: {
             delay: 3000,
             disableOnInteraction: false,
         },
-        // navigation: {
-        //     nextEl: ".swiper-button-next",
-        //     prevEl: ".swiper-button-prev",
-        // },
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+        },
     });
     var swiper = new Swiper(".mySwiper2", {
         slidesPerView: 1,
@@ -383,5 +413,66 @@
         //     prevEl: ".swiper-button-prev",
         // },
     });
-    
+    var swiper = new Swiper('.mySwiper10', {
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
+    });
+</script>
+
+
+<script>
+    document.querySelectorAll('.thumbnail-img').forEach(img => {
+        img.addEventListener('click', function() {
+            // Get the source of the clicked thumbnail
+            let newSrc = this.src;
+            // Set the main image source to the clicked thumbnail source
+            document.getElementById('mainImage').src = newSrc;
+        });
+    });
+</script>
+
+<script>
+    function zoom(e) {
+        var img = e.currentTarget.querySelector('img');
+        var offsetX, offsetY;
+        e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX;
+        e.offsetY ? offsetY = e.offsetY : offsetY = e.touches[0].pageY;
+
+        var x = offsetX / img.offsetWidth * 100;
+        var y = offsetY / img.offsetHeight * 100;
+
+        img.style.transformOrigin = x + '% ' + y + '%';
+        img.style.transform = "scale(2)";
+    }
+
+    function resetZoom(e) {
+        var img = e.currentTarget.querySelector('img');
+        img.style.transform = "scale(1)";
+        img.style.transformOrigin = "center center";
+    }
 </script>
