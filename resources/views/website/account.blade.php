@@ -47,7 +47,7 @@
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade py-4 show active" id="orders-tab-pane" role="tabpanel" aria-labelledby="orders-tab" tabindex="0">
                 <div class="row orders-div">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="card mb-3 border-0 py-2">
                             <div class="col-12 d-flex justify-content-between">
                                 <p class="mb-0"><b>Order: </b>&nbsp; 0-202-998</p>
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="card mb-3 border-0 py-2">
                             <div class="col-12 d-flex justify-content-between">
                                 <p class="mb-0"><b>Order: </b>&nbsp; 0-202-998</p>
@@ -790,23 +790,23 @@
                     <table class="table table-hover">
                         <thead class="thead-dark">
                             <tr>
-                                <th scope="col">Product ID</th>
-                                <th scope="col">Product Name</th>
-                                <th scope="col">Category</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Added Date</th>
-                                <th scope="col">Actions</th>
+                                <th class="text-nowrap" scope="col">Product ID</th>
+                                <th class="text-nowrap" scope="col">Product Name</th>
+                                <th class="text-nowrap" scope="col">Category</th>
+                                <th class="text-nowrap" scope="col">Price</th>
+                                <th class="text-nowrap" scope="col">Added Date</th>
+                                <th class="text-nowrap" scope="col">Actions</th>
                             </tr>
                         </thead>
                         <tbody>
                             <!-- Example row -->
                             <tr>
-                                <td>101</td>
-                                <td>Wireless Headphones</td>
-                                <td>Electronics</td>
-                                <td>$99</td>
-                                <td>2024-08-13</td>
-                                <td>
+                                <td class="text-nowrap">101</td>
+                                <td class="text-nowrap">Wireless Headphones</td>
+                                <td class="text-nowrap">Electronics</td>
+                                <td class="text-nowrap">$99</td>
+                                <td class="text-nowrap">2024-08-13</td>
+                                <td class="text-nowrap">
                                     <button class="btn btn-primary btn-sm">Add to Cart</button>
                                     <button class="btn btn-danger btn-sm">Remove</button>
                                 </td>
@@ -817,7 +817,7 @@
                 </div>
                 <div class="row mt-3">
                     <h3 class="text-center">Wish List</h3>
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -879,7 +879,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -941,7 +941,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1004,7 +1004,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1066,7 +1066,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1138,7 +1138,7 @@
             </div>
             <div class="tab-pane fade py-4" id="recently-viewed-tab-pane" role="tabpanel" aria-labelledby="recently-viewed-tab" tabindex="0">
                 <div class="row">
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1200,7 +1200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1262,7 +1262,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1325,7 +1325,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1387,7 +1387,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 my-2">
+                    <div class="col-md-3 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">

@@ -37,9 +37,7 @@
                 gap: 30px;
                 margin-top : 2rem;
 
-                img {
-                    height: 80px;
-                }
+               
             }
         }
     </style>

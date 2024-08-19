@@ -66,7 +66,7 @@
 </div>
 <!-- _______________________New Hero Banner_________________________ -->
 <div class="row">
-    <div class="col-md-6 hero-banner p-5">
+    <div class="col-lg-6 hero-banner p-md-5 p-4">
         <h1 class="mb-0 fw-bold"><span class="the-future px-1">The Future</span> Of <br> Nursing Exam <br> Prep Starts Here</h1>
         <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <!-- <div class="swiperrr position-relative"> -->
@@ -98,14 +98,14 @@
             </div>
         </div> -->
     </div>
-    <div class="col-md-6 px-md-0">
+    <div class="col-lg-6 px-md-0 d-lg-block d-none">
         <div class="swiper mySwiper10" id="hero-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img class="w-100" style="height: calc(100vh - 92px);" src="{{asset('assets/images/hero-banner-img-1.png')}}" alt="">
+                    <img class="new-hero-banner-img"  src="{{asset('assets/images/hero-banner-img-1.png')}}" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img class="w-100" style="height: calc(100vh - 92px);" src="{{asset('assets/images/hero-banner-img-2.png')}}" alt="">
+                    <img class="new-hero-banner-img"  src="{{asset('assets/images/hero-banner-img-2.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -810,7 +810,7 @@
             <div class="border-under-main-heading"></div>
         </h3>
         <div class="row mt-5">
-            <div class="col-md-6 d-flex align-items-stretch">
+            <div class="col-md-6 d-flex align-items-stretch my-1">
                 <div class="info-card info-card-dark w-100 py-4">
                     <div>
                         <h6>Our Mission</h6>
@@ -818,9 +818,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 d-flex align-items-stretch">
+            <div class="col-md-6 d-flex align-items-stretch my-1">
                 <div>
-                    <div class="info-card info-card-light w-100 py-4 mb-md-2">
+                    <div class="info-card info-card-light w-100 py-4 my-1 mb-md-2">
                         <div class="row align-items-end">
                             <div class="col-lg-8 my-1">
                                 <h6>Our Locations</h6>
@@ -834,7 +834,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="info-card info-card-dar w-100 py-4 mt-md-2">
+                    <div class="info-card info-card-dar w-100 py-4 my-1 mt-md-2">
                         <div>
                             <h6>Our ESG Promises</h6>
                             <h3>Responsible technology.<br>Sustainable future.</h3>
@@ -1295,7 +1295,7 @@
     </div>
     <!-- _______________________Promo Cards 2_________________________ -->
     <div class="promocards row mt-4">
-        <div class="col-md-6">
+        <div class="col-lg-6 my-1">
             <div class="mx-1 promocard bg-danger d-flex rounded-2 w-100 my-md-0 my-2">
                 <div class="row align-items-center py-2 px-2 w-100 my-1">
                     <div class="col-md-7">
@@ -1313,7 +1313,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 my-1">
             <div class="mx-1 promocard bg-secondary d-flex rounded-2 w-100 my-md-0 my-2">
                 <div class="row align-items-center py-2 px-2 w-100 my-1">
                     <div class="col-md-7">
@@ -1974,11 +1974,14 @@
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
+            <div class="modal-head d-md-none d-block">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
             <div class="modal-body py-5">
                 <div class="row">
                     <div class="col-md-5 my-1 d-flex align-items-center justify-content-center">
-                        <div class="row align-items-center justify-content-center d-none">
-                                <img class="w-100" style="height:23rem" id="mainImage" src="{{asset('assets/images/category-img.png')}}" alt="Card image" style="width: 100%; height: auto;">
+                        <div class="row align-items-center justify-content-center">
+                            <img class="w-100" style="height:23rem" id="mainImage" src="{{asset('assets/images/category-img.png')}}" alt="Card image" style="width: 100%; height: auto;">
                             <div class="row mt-3">
                                 <div class="col-3">
                                     <img src="{{asset('assets/images/category-img.png')}}" class="img-thumbnail thumbnail-img" alt="Thumbnail 1">
@@ -1998,7 +2001,7 @@
                     <div class="col-md-7 my-1">
                         <div class="d-flex justify-content-between">
                             <h5 class="product-title mb-0">Aspetur Autodit Autfugit</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close d-md-block d-none" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <hr class="mb-0">
                         <p class="text-muted mt-2">Foodzone</p>
