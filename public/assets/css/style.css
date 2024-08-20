@@ -519,7 +519,7 @@ nav .navbar-brand img {
     margin-top: -30px;
 }
 
-.featured-cards-div .featured-card .featured-card-images {
+.featured-card .featured-card-images {
     height: 10rem;
     width: 10rem;
 }
@@ -556,7 +556,26 @@ nav .navbar-brand img {
     width: 10rem;
     transition: width 0.5s ease-in-out;
 }
-
+.contact-us:hover .border-under-main-heading {
+    width: 10rem;
+    transition: width 0.5s ease-in-out;
+}
+.about-us-div:hover .border-under-main-heading {
+    width: 10rem;
+    transition: width 0.5s ease-in-out;
+}
+.our-mission-div:hover .border-under-main-heading {
+    width: 10rem;
+    transition: width 0.5s ease-in-out;
+}
+.sourcing-div:hover .border-under-main-heading {
+    width: 10rem;
+    transition: width 0.5s ease-in-out;
+}
+.anytime-div:hover .border-under-main-heading {
+    width: 10rem;
+    transition: width 0.5s ease-in-out;
+}
 .related-cards-div:hover .border-under-main-heading {
     width: 10rem;
     transition: width 0.5s ease-in-out;
@@ -585,7 +604,7 @@ nav .navbar-brand img {
     height: 16rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .promocard {
         height: auto;
     }
@@ -755,7 +774,14 @@ footer .footer-mains-offers {
     background-color: #e3e7ec;
     border-radius: 8px;
 }
-
+footer .cards-in-footer{
+    white-space: nowrap;
+}
+@media screen and (max-width: 480px) {
+    footer .cards-in-footer{
+        white-space: wrap !important;
+    }
+}
 .btn-close {
     transition: 0.6s ease-in-out;
     margin-top: -25px !important;

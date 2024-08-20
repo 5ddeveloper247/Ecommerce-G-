@@ -3,7 +3,7 @@
     <div class="container py-5">
         <div class="row justify-content-md-between justify-content-center align-items-center">
             <div class="col-md-6">
-                <div class="d-flex align-items-center">
+                <div class=" justify-content-centerd-flex align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 48 48">
                         <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
                             <path fill="currentColor" d="M44 18v21.818C44 41.023 43.105 42 42 42H6c-1.105 0-2-.977-2-2.182V18l20 13z" />
@@ -27,7 +27,7 @@
 <footer class="bg-light text-dark pt-md-5 pt-3">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4">
                 <h5>Info</h5>
                 <div class="d-flex mt-1">
                     <svg class=" mt-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
@@ -47,10 +47,10 @@
                         <path fill="#666666" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z" />
                     </svg>
                     <p class="ms-2 mb-0">
-                        support@yourstore.com
+                        support@gmail.com
                     </p>
                 </div>
-                <div class="d-flex align-items-center mt-3 mb-md-0 mb-5">
+                <div class="d-flex align-items-center mt-3 mb-0 mb-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
                         <path fill="#000" d="m19.23 15.26l-2.54-.29a1.99 1.99 0 0 0-1.64.57l-1.84 1.84a15.05 15.05 0 0 1-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52a2 2 0 0 0-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07c.53 8.54 7.36 15.36 15.89 15.89c1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98" />
                     </svg>
@@ -59,7 +59,7 @@
                     </h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4">
                 <h5>Navigate</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Specials</a></li>
@@ -73,7 +73,7 @@
                     <li><a href="{{'faqs'}}">FAQ's</a></li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-4">
                 <h5>Categories</h5>
                 <ul class="list-unstyled">
                     <li><a href="{{url('/products')}}">Shop All</a></li>
@@ -86,8 +86,8 @@
                     <li><a href="#">Video Games</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 footer-brands">
-                <h5>Popular Brands</h5>
+            <div class="col-lg-3 col-md-4 footer-brands">
+            <h5>Popular Brands</h5>
                 <ul class="list-unstyled">
                     <li><a href="#">Shoppe Fabs</a></li>
                     <li><a href="#">Mountain Climbing</a></li>
@@ -118,44 +118,44 @@
             <div class="col-lg-9 col-md-8 col-12 footer-offers">
                 <div class="swiper mySwiper7">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="d-flex align-items-center col-md-3 col-12 mb-4 mb-md-0">
+                        <div class="swiper-slide d-flex justify-content-center">
+                            <div class="d-flex justify-content-center align-items-center col-md-3 col-12 mb-4 mb-md-0">
                                 <div class="icon-circle d-inline-block">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 24 24">
                                         <path fill="#000" d="M5.5 7A1.5 1.5 0 0 1 4 5.5A1.5 1.5 0 0 1 5.5 4A1.5 1.5 0 0 1 7 5.5A1.5 1.5 0 0 1 5.5 7m15.91 4.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59s1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41c0-.56-.23-1.06-.59-1.42" />
                                     </svg>
                                 </div>
-                                <h6 class="mb-0 ms-2 text-nowrap text-md-nowrap">Daily Discount</h6>
+                                <h6 class="mb-0 ms-2 cards-in-footer text-md-nowrap">Daily Discount</h6>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="d-flex align-items-center col-md-3 col-12 mb-4 mb-md-0">
+                        <div class="swiper-slide d-flex justify-content-center">
+                            <div class="d-flex justify-content-center align-items-center col-md-3 col-12 mb-4 mb-md-0">
                                 <div class="icon-circle d-inline-block">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 24 24">
                                         <path fill="#000" d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67l-.5-.68C10.96 2.54 10.05 2 9 2C7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2m-5-2c.55 0 1 .45 1 1s-.45 1-1 1s-1-.45-1-1s.45-1 1-1M9 4c.55 0 1 .45 1 1s-.45 1-1 1s-1-.45-1-1s.45-1 1-1m11 15H4v-2h16zm0-5H4V8h5.08L7 10.83L8.62 12L12 7.4l3.38 4.6L17 10.83L14.92 8H20z" />
                                     </svg>
                                 </div>
-                                <h6 class="mb-0 ms-2 text-nowrap text-md-nowrap">Send A Free Gift</h6>
+                                <h6 class="mb-0 ms-2 cards-in-footer text-md-nowrap">Send A Free Gift</h6>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="d-flex align-items-center col-md-3 col-12 mb-4 mb-md-0">
+                        <div class="swiper-slide d-flex justify-content-center">
+                            <div class="d-flex justify-content-center align-items-center col-md-3 col-12 mb-4 mb-md-0">
                                 <div class="icon-circle d-inline-block">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 24 24">
                                         <path fill="#000" d="M20.72 14.621a.8.8 0 0 1-.19.35a.7.7 0 0 1-.33.21a.8.8 0 0 1-.4 0l-5.81-1.46l-.27 4.8l1.06.8a.22.22 0 0 1 .1.2v1.75a.27.27 0 0 1-.09.2a.3.3 0 0 1-.16 0h-.06l-2.57-.69l-2.56.69a.25.25 0 0 1-.31-.24v-1.75a.25.25 0 0 1 .1-.2l1.06-.8l-.27-4.8l-5.81 1.46a.73.73 0 0 1-.39 0a.75.75 0 0 1-.34-.21a.73.73 0 0 1-.18-.35a.65.65 0 0 1 0-.39l.52-1.55a.6.6 0 0 1 .15-.27a.8.8 0 0 1 .27-.18l5.75-2.47v-5.23a2 2 0 0 1 .58-1.41a2.06 2.06 0 0 1 2.83 0a2 2 0 0 1 .58 1.42v5.22l5.76 2.47a.74.74 0 0 1 .42.45l.52 1.54a.9.9 0 0 1 .04.44" />
                                     </svg>
                                 </div>
-                                <h6 class="mb-0 ms-2 text-nowrap text-md-nowrap">Free Shipping</h6>
+                                <h6 class="mb-0 ms-2 cards-in-footer">Free Shipping</h6>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="d-flex align-items-center col-md-3 col-12 mb-4 mb-md-0">
+                        <div class="swiper-slide d-flex justify-content-center">
+                            <div class="d-flex justify-content-center align-items-center col-md-3 col-12 mb-4 mb-md-0">
                                 <div class="icon-circle d-inline-block">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="2.4em" height="2.4em" viewBox="0 0 24 24">
                                         <path fill="#000" d="M20.72 14.621a.8.8 0 0 1-.19.35a.7.7 0 0 1-.33.21a.8.8 0 0 1-.4 0l-5.81-1.46l-.27 4.8l1.06.8a.22.22 0 0 1 .1.2v1.75a.27.27 0 0 1-.09.2a.3.3 0 0 1-.16 0h-.06l-2.57-.69l-2.56.69a.25.25 0 0 1-.31-.24v-1.75a.25.25 0 0 1 .1-.2l1.06-.8l-.27-4.8l-5.81 1.46a.73.73 0 0 1-.39 0a.75.75 0 0 1-.34-.21a.73.73 0 0 1-.18-.35a.65.65 0 0 1 0-.39l.52-1.55a.6.6 0 0 1 .15-.27a.8.8 0 0 1 .27-.18l5.75-2.47v-5.23a2 2 0 0 1 .58-1.41a2.06 2.06 0 0 1 2.83 0a2 2 0 0 1 .58 1.42v5.22l5.76 2.47a.74.74 0 0 1 .42.45l.52 1.54a.9.9 0 0 1 .04.44" />
                                     </svg>
                                 </div>
-                                <h6 class="mb-0 ms-2 text-nowrap text-md-nowrap">Free Shipping</h6>
+                                <h6 class="mb-0 ms-2 cards-in-footer text-md-nowrap">Free Shipping</h6>
                             </div>
                         </div>
                     </div>

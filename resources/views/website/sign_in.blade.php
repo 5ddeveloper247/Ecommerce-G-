@@ -12,7 +12,7 @@
         <div class="border-under-main-heading"></div>
     </h3>
     <div class="row mt-5 justify-content-center align-items-center">
-        <div class="col-md-5">
+        <div class="col-md-5 my-1">
             <form>
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -29,7 +29,7 @@
                 </div>
             </form>
         </div>
-        <div class="col-md-5 offset-md-1 box-shadow p-4 bg-light">
+        <div class="col-md-5 my-1 offset-md-1 box-shadow p-4 bg-light">
             <h5 class="fw-bold">New Customer?</h5>
             <p>Create an account with us and you'll be able to:</p>
             <ul>

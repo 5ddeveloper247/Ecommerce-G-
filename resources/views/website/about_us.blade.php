@@ -8,7 +8,7 @@
 
 <div class="container about-us py-5">
 
-    <div class="row">
+    <div class="row about-us-div">
         <div class="col-md-6 my-1">
             <h3 class="main-headings position-relative text-start">
                 About Us
@@ -22,7 +22,7 @@
             <img class="img-fluid" src="https://img.alicdn.com/tps/i4/TB12rC6FVXXXXbeXFXXjP6tPXXX-372-205.jpg" alt="">
         </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-5 our-mission-div">
         <div class="col-md-6 my-1 d-flex justify-content-center">
             <img class="img-fluid" src="https://img.alicdn.com/tps/i4/TB14.S5FVXXXXciXFXXLLTAZVXX-290-235.jpg" alt="">
         </div>
@@ -38,7 +38,7 @@
             </p>
         </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-5 sourcing-div">
         <div class="col-md-6 my-1">
             <h3 class="main-headings position-relative text-start">
                 One-Stop Sourcing
@@ -53,7 +53,7 @@
             <img class="img-fluid" src="https://img.alicdn.com/tps/i3/TB1vN1_FVXXXXa7XpXXViktNVXX-400-289.jpg" alt="">
         </div>
     </div>
-    <div class="row my-md-5 mt-md-0 mt-5">
+    <div class="row my-md-5 mt-md-0 mt-5 anytime-div">
         <div class="col-md-6 my-1 d-flex justify-content-center">
             <img class="img-fluid" src="https://img.alicdn.com/tps/i2/TB1lam6FVXXXXbyXFXXAMLs6FXX-230-222.jpg" alt="">
         </div>
