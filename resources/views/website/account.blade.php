@@ -12,7 +12,7 @@
         <div class="border-under-main-heading"></div>
     </h3>
     <div class="mt-5">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <ul class="nav nav-tabs account-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link px-0 active" id="orders-tab" data-bs-toggle="tab" data-bs-target="#orders-tab-pane" type="button" role="tab" aria-controls="orders-tab-pane" aria-selected="true">
                     Order
@@ -647,7 +647,7 @@
                     </div>
                     <div class="col-md-9 col-sm-8">
 
-                        <div class="d-flex align-items-center justify-content-between profile-area mt-2">
+                        <div class="d-flex align-items-start justify-content-between profile-area mt-2">
                             <div class="d-flex mail-profile-detail">
                                 <img src="https://prium.github.io/phoenix/v1.18.0/assets/img/team/60.webp" alt="">
                                 <div class="ms-2">
@@ -655,13 +655,15 @@
                                     <p><small>20 May 2020</small></p>
                                 </div>
                             </div>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap justify-content-end">
                                 <button type="button" class="btn ticketno mx-2">
-                                    Mark Incomplete
-                                </button>
+                                    <small>
+                                        Mark Incomplete
+                                    </small> </button>
                                 <button type="button" class="btn ticketno mx-2">
-                                    Mark Process
-                                </button>
+                                    <small>
+                                        Mark Process
+                                    </small> </button>
                             </div>
                         </div>
                         <div class="mail-structure">
@@ -718,15 +720,15 @@
                         </div>
 
                         <div class="attachments mt-3">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center mb-2">
                                 <h5 class="mb-0">Attachments (3)</h5>
                                 <svg style="cursor:pointer" class="advance-plus-icon ms-3" xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256">
                                     <path fill="currentColor" d="M188 184a16 16 0 1 1 16-16a16 16 0 0 1-16 16m36-68h-44a12 12 0 0 0 0 24h40v56H36v-56h40a12 12 0 0 0 0-24H32a20 20 0 0 0-20 20v64a20 20 0 0 0 20 20h192a20 20 0 0 0 20-20v-64a20 20 0 0 0-20-20M88.49 80.49L116 53v75a12 12 0 0 0 24 0V53l27.51 27.52a12 12 0 1 0 17-17l-48-48a12 12 0 0 0-17 0l-48 48a12 12 0 1 0 17 17Z"></path>
                                 </svg>
                             </div>
                             <div class="d-flex">
-                                <p class="px-2">My-Photo.png</p>
-                                <p class="px-2">My-Document.docx</p>
+                                <p class="px-2 mb-0">My-Photo.png</p>
+                                <p class="px-2 mb-0">My-Document.docx</p>
                             </div>
                             <hr>
                             <div class="col-xs-12 p-0 mb-5">
@@ -817,7 +819,7 @@
                 </div>
                 <div class="row mt-3">
                     <h3 class="text-center">Wish List</h3>
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -879,7 +881,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -941,7 +943,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1004,7 +1006,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1066,7 +1068,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1138,7 +1140,7 @@
             </div>
             <div class="tab-pane fade py-4" id="recently-viewed-tab-pane" role="tabpanel" aria-labelledby="recently-viewed-tab" tabindex="0">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1200,7 +1202,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1262,7 +1264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1325,7 +1327,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">
@@ -1387,7 +1389,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="card featured-card border-0">
                             <p class="sale-badge text-black">Sale</p>
                             <div class="actions">

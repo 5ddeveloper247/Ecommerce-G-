@@ -46,7 +46,7 @@
 @section('content')
 
 <div class="product-page">
-    <div class="product-top d-flex align-items-center justify-content-between">
+    <div class="product-top d-flex align-items-center justify-content-between d-none">
         <h6 class="mb-0">
             Shop All
         </h6>
@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <nav class="navbar mx-3 d-block d-lg-none border rounded-4 navbar-expand-lg">
+    <nav class="navbar mx-3 d-block d-lg-none border rounded-4 navbar-expand-lg mt-3">
         <div class="container">
             <button class="navbar-toggler l-btn text-center w-100" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

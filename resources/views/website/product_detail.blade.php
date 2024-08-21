@@ -134,7 +134,7 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link px-1 active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description-tab-pane" type="button" role="tab" aria-controls="description-tab-pane" aria-selected="true">Description</button>
                 </li>
-                <li class="nav-item mx-md-4" role="presentation">
+                <li class="nav-item mx-md-4 mx-3" role="presentation">
                     <button class="nav-link px-1" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews-tab-pane" type="button" role="tab" aria-controls="reviews-tab-pane" aria-selected="false">Reviews</button>
                 </li>
             </ul>
