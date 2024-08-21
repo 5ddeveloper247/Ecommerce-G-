@@ -1472,3 +1472,15 @@ figure.zoom:hover img {
         height: calc(100vh - 92px) !important;
     }
 }
+
+.account-tabs{
+    display: flex !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+}
+.ticketno {
+    background-color: #0078b93b !important;
+    margin: 4px 0px;
+}

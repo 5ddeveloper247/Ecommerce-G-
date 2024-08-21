@@ -236,7 +236,7 @@
         </div>
     </div>
     <!-- _______________________Counters_________________________ -->
-    <div class="counters mt-2">
+    <div class="counters mt-4">
         <div class="row">
             <div class="col-md-7 d-flex align-items-center">
                 <h2 class=" font-weight-bold pt-md-3 pt-1 mt-lg-3 mt-0">Explore Hundreds
@@ -804,7 +804,7 @@
         </div>
     </div>
     <!-- _______________________Our Mission Cards_________________________ -->
-    <div class="our-mission-cards-div mt-5">
+    <div class="our-mission-cards-div mt-4">
         <h3 class="main-headings position-relative text-start">
             Empowering businesses
             <div class="border-under-main-heading"></div>
@@ -1824,7 +1824,7 @@
         </div>
     </div>
     <!-- _______________________Latest Blogs Card Slider_________________________ -->
-    <div class="best-seller-cards-div mt-4">
+    <div class="best-seller-cards-div my-4">
         <h3 class="main-headings position-relative text-start">
             Latest Blogs
             <div class="border-under-main-heading"></div>
