@@ -11,7 +11,7 @@
         Shipping and Returns
         <div class="border-under-main-heading"></div>
     </h3>
-    <div class="row mt-4">
+    <div class="row mt-5">
         <p class="font-italic"><i>To edit this page, log in to your control panel and go to Storefront › Web Pages. Click Edit next to the Shipping & Returns page and you can change this text. A sample returns policy is shown below which you can edit as needed.</i></p>
         <h6>Returns Policy</h6>
         <p>You may return most new, unopened items within 30 days of delivery for a full refund. We'll also pay the return shipping costs if the return is a result of our error (you received an incorrect or defective item, etc.).</p>

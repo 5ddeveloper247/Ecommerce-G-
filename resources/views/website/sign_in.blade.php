@@ -18,11 +18,11 @@
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Email address</label>
                 </div>
-                <div class="form-floating">
+                <div class="form-floating mb-3">
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                 </div>
-                <div class="d-flex justify-content-between align-items-center my-3">
+                <div class="d-flex justify-content-between align-items-center">
                     <button class="btn btn-add-to-cart">
                         Sign in
                     </button> <a href="#" class="text-decoration-none text-black">Forgot your password?</a>

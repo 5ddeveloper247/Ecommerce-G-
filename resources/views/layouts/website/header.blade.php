@@ -402,6 +402,34 @@
     </nav>
     <nav class="navbar navbar-expand-lg header-bottom py-0">
         <div class="container">
+            <!-- <div class="dropdown categories-dropdown">
+            <div class="d-flex align-items-center dropdown-toggle py-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z" />
+                </svg>
+                <span class="ms-2">All</span>
+            </div>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
+                        </svg>Action</a>
+                </li>
+                <li>
+                    <a class="dropdown-item d-flex align-items-center py-2 border-bottom" href="#">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
+                        </svg>Another action</a>
+                </li>
+                <li>
+                    <a class="dropdown-item d-flex align-items-center py-2" href="#">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
+                        </svg>Something else here</a>
+                </li>
+            </ul>
+        </div> -->
             <ul class="mb-2 mb-lg-0 bottom-header-ul d-flex flex-wrap align-items-center">
                 <li class="nav-item pe-2 all-categories-ul">
                     <a class="nav-link pe-3 py-2 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuu" aria-controls="offcanvasMenuu">
@@ -416,6 +444,9 @@
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link px-3 py-2" aria-current="page" href="#">New Releases</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link px-3 py-2" href="#">Books</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link px-3 py-2" aria-current="page" href="#">Specials</a>
@@ -477,11 +508,6 @@
 
             <!-- Right Side Icons -->
             <div class="d-flex">
-                <a class="px-2" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3"></path>
-                    </svg>
-                </a>
                 <div class="dropdown-center">
                     <a class="px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
@@ -618,7 +644,7 @@
             </li>
             <li class="px-md-3 px-2 py-1">
                 <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
-                    Best Seller
+                    Another action
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>
@@ -626,7 +652,7 @@
             </li>
             <li class="px-md-3 px-2 py-1">
                 <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
-                    Specials
+                    Something else here
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>
@@ -634,63 +660,47 @@
             </li>
             <li class="px-md-3 px-2 py-1">
                 <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
-                    New Releases
+                    Action
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>
                 </a>
             </li>
             <li class="px-md-3 px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{'contact_us'}}">
-                    Contact Us
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Another action
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>
                 </a>
             </li>
             <li class="px-md-3 px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{'about_us'}}">
-                    About Us
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Something else here
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>
                 </a>
             </li>
             <li class="px-md-3 px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{'blogs'}}">
-                    Our Blogs
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Action
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>
                 </a>
             </li>
             <li class="px-md-3 px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{'shipping-returns'}}">
-                    Shipping & Returns
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Another action
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>
                 </a>
             </li>
             <li class="px-md-3 px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{'delivery-information'}}">
-                    Delivery Information
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
-                    </svg>
-                </a>
-            </li>
-            <li class="px-md-3 px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{'terms-conditions'}}">
-                    Terms & Conditions
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
-                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
-                    </svg>
-                </a>
-            </li>
-            <li class="px-md-3 px-2 py-1">
-                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="{{'privacy-policy'}}">
-                    Privacy Policy
+                <a class="dropdown-item d-flex align-items-center justify-content-between py-2 border-bottom" href="#">
+                    Something else here
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
                         <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144" />
                     </svg>

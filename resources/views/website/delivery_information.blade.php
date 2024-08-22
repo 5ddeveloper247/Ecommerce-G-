@@ -11,7 +11,7 @@
         Deliver Information
         <div class="border-under-main-heading"></div>
     </h3>
-    <div class="row mt-4">
+    <div class="row mt-5">
         <h6>UK Orders</h6>
         <p>Standard shipping is at a flat rate of £3.25 applies to all orders less than £30.  Shipping is FREE for all orders over £30.  Orders received before 9am usually ship the same day and are delivered by Royal Mail 2nd Class.</p>
         <p>Express shipping is at a flat rate of £8 for all orders.  Orders received before 9am usually ship the same day and are delivered by Royal Mail Special Delivery, guaranteed before 1pm the next working day (excludes Saturday).</p>
