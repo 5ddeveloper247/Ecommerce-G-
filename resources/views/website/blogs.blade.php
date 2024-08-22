@@ -11,7 +11,7 @@
         Blogs
         <div class="border-under-main-heading"></div>
     </h3>
-    <div class="row mt-5">
+    <div class="row mt-4">
         <div class="col-md-6 mt-md-3">
             <div class="card mb-3 border-0">
                 <div class="row g-0">

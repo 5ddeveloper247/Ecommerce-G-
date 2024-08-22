@@ -13,7 +13,7 @@
     </h3>
     <div class="row">
         <div class="col-md-7">
-            <p class="mt-5 w-md-50">We're happy to answer questions or help you with returns. Please fill out the form below if you need assistance.</p>
+            <p class="mt-4 w-md-50">We're happy to answer questions or help you with returns. Please fill out the form below if you need assistance.</p>
         </div>
     </div>
     <form>
